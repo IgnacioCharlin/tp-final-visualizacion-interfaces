@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    height: 6rem;
+}
+
+.formulario{
+    background-color: rgba(128, 128, 128, 0.658);
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 50vh;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.700);
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo:first-child{
+    margin-top: 2rem;
+}
+
+.campo input{
+    background-color: rgb(238, 237, 237);
+    border: 0;
+    border-radius: 4PX;
+    padding: 0.3rem;
+    width: 80%;
+    text-align: center;
+}
+
+.boton-primary{
+    background-color: #0E8CAD;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 80%;
+
+}
+
+.boton-primary:hover{
+    background-color: #06495a;
+    transition: 0.3s;
+}
+
+.boton-volver{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    top: 17%;
+    left: 67%;
+    font-weight: bolder;
+}
+.tyc{
+    align-items: center;
+}
+#tyc-campo{
+    width: min-content;
+}
+
+span{
+    color: rgb(25, 25, 148);
+}
+
+span:hover{
+    text-decoration: underline;
+}
