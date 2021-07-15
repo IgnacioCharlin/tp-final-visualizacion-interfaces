@@ -5,14 +5,14 @@
     font-family: 'Lato', sans-serif;
 }
 
-body{
+.login{
     background-image: url("../img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .logo{
-    height: 6rem;
+    height: 3rem;
 }
 
 .formulario{
@@ -81,4 +81,31 @@ span{
 
 span:hover{
     text-decoration: underline;
+}
+
+.icono{
+    font-size: 3.5rem;
+    color: #0E8CAD;
+    margin-bottom: 5px;
+}
+.hero{
+    min-height: 600px;
+    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)),url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1{
+    color: white;
+}
+footer h4{
+    color: white;
+    }
+.boton-modal{
+    font-size: 1.5rem;
+    background-color: white;
+    border:none;
+}
+.boton-modal:hover{
+    color: white;
+    background-color: #0E8CAD;
 }
