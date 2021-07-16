@@ -22,7 +22,7 @@
     margin: auto;
     padding: 1rem;
     border-radius: 10px;
-    height: 50vh;
+    height: 60vh;
     color: white;
     text-align: center;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.700);
@@ -102,7 +102,7 @@ span:hover{
 .hero h1{
     color: white;
 }
-footer h4{
+footer div span{
     color: white;
     }
 .boton-modal{
@@ -124,6 +124,7 @@ footer h4{
     transition: width .3s;
 }
 
+<<<<<<< HEAD
 #carousel{
  background-color: #06495a;
 }
@@ -136,4 +137,12 @@ footer h4{
     width: 15rem !important;
     height: 10rem;
     image-rendering: auto;
+=======
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+>>>>>>> 42fbb76c38caf929344e3c78875caabd77e174e8
 }
