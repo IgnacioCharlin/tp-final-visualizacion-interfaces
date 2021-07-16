@@ -19,15 +19,22 @@
         <img class="logo" src="img/logo-blanco.png" alt="logo">
     </header>
     <section class="formulario">
-        <form action="">
+        <form action="" onsubmit="verificarPasswords(); return false">
             <div class="campo">
                 <input type="email" placeholder="Ingresa Email">
             </div class="campo">
             <div class="campo">
-                <input type="password" placeholder="Ingresar Contraseña">
+                <input type="password" id="pass1" placeholder="Ingresar Contraseña">
             </div>
             <div class="campo">
-                <input type="password" placeholder="Repite Contraseña">
+                <input type="password" id="pass2" placeholder="Repite Contraseña">
+            </div>
+            <!-- Mensajes de Verificación -->
+            <div id="error" class="alert alert-danger ocultar" role="alert">
+                Las Contraseñas no coinciden, vuelve a intentar.
+            </div>
+            <div id="ok" class="alert alert-success ocultar" role="alert">
+                ¡Genial! Las Contraseñas coinciden.
             </div>
             <div class="campo tyc">
                 <input type="checkbox" name="credencial" id="tyc-campo">
@@ -39,6 +46,27 @@
             </div>
         </form>
     </section>
+    <script>
+function verificarPasswords() {
+ 
+ pass1 = document.getElementById('pass1');
+ pass2 = document.getElementById('pass2');
+
+ if (pass1.value != pass2.value) {
+
+     document.getElementById("error").classList.add("mostrar");
+     return false;
+
+ } else {
+
+     document.getElementById("error").classList.remove("mostrar");
+     document.getElementById("ok").classList.remove("ocultar");
+
+     return true;
+ }
+
+}
+    </script>
 </body>
 
 </html>
