@@ -123,3 +123,17 @@ footer h4{
     width: 100%;
     transition: width .3s;
 }
+
+#carousel{
+ background-color: #06495a;
+}
+.carousel-inner{
+    width: 60%;
+    margin: auto;
+    
+}
+#carousel img{
+    width: 15rem !important;
+    height: 10rem;
+    image-rendering: auto;
+}
