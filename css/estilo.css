@@ -124,9 +124,9 @@ footer div span{
     transition: width .3s;
 }
 
-<<<<<<< HEAD
+
 #carousel{
- background-color: #06495a;
+ height: 50vh;
 }
 .carousel-inner{
     width: 60%;
@@ -136,13 +136,36 @@ footer div span{
 #carousel img{
     width: 15rem !important;
     height: 10rem;
-    image-rendering: auto;
-=======
+    image-rendering: pixelated;
+    object-fit: contain;
+    margin: auto;
+}
+
 .ocultar {
     display: none;
 }
  
 .mostrar {
     display: block;
->>>>>>> 42fbb76c38caf929344e3c78875caabd77e174e8
+
+}
+
+.img-seguimiento{
+    height: 50vh;
+}
+
+.card-carousel{
+    width: 100%;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.card-recomendacion{
+    
+    
+    /*
+    */
+    margin-left: 20rem;
+    width: 60%;
+    
 }
